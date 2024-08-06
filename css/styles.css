@@ -1,0 +1,264 @@
+html {
+  min-height: 100%;
+  position: relative;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+html body {
+  background-color: black;
+}
+html body .blanco {
+  color: white;
+}
+html body .negro {
+  color: black;
+}
+html body main {
+  margin-bottom: 50px;
+}
+html body main .linea-articulo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+html body main .linea-articulo .div-articulo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  overflow: hidden;
+  margin: 10px 0;
+  padding: 20px;
+}
+html body main .linea-articulo .div-articulo .div-img {
+  flex: 1 1 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+}
+html body main .linea-articulo .div-articulo .div-img .img-articulo {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+  border: 5px solid #7900ff;
+}
+html body main .linea-articulo .div-articulo .div-descripcion {
+  flex: 2 1 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+html body main .linea-articulo .div-articulo .div-descripcion .titulo-articulo {
+  text-align: left;
+  margin-left: 50px;
+}
+html body main .linea-articulo .div-articulo .div-btn {
+  display: table-cell;
+  padding-right: 100px;
+  vertical-align: middle;
+}
+html body main .linea-articulo .div-articulo .div-btn .plus-button {
+  width: 40px;
+  height: 40px;
+  border: none;
+  border-radius: 50%;
+  background-color: #7900ff;
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+}
+html body #carouselExample {
+  width: 50%;
+  margin: 0 auto;
+}
+html body #carouselExample .carousel-inner .carousel-item img {
+  width: 100%;
+  height: auto;
+}
+html body #carouselExample .carousel-control-prev,
+html body #carouselExample .carousel-control-next {
+  width: 5%;
+}
+html body .finalizar-compra {
+  color: white;
+  text-align: center;
+  margin-top: 60px;
+}
+html body .linea-carrito {
+  display: table-row;
+  width: 80%;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #ccc;
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+}
+html body .linea-carrito .img-carrito {
+  width: 80px;
+  height: 80px;
+}
+html body .linea-carrito .div-cantidad {
+  display: table-cell;
+  vertical-align: top;
+  padding-right: 500px;
+}
+html body .linea-carrito .div-carrito {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+}
+html body .linea-carrito .div-carrito .div-img-carrito img {
+  max-width: 100px;
+  height: auto;
+  margin-right: 20px;
+}
+html body .linea-carrito .div-carrito .titulo-carrito {
+  margin: 0;
+}
+html body .total-carrito {
+  color: white;
+  font-size: 22px;
+}
+html body .producto-tabla {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+html body .producto-carrito {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+html body footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+}
+html body p, html body li, html body label, html body h2, html body h3 {
+  color: white;
+}
+html body p {
+  color: white;
+  margin-top: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+html body li {
+  margin-top: 5px;
+}
+html body form {
+  margin-top: 60px;
+  text-align: center;
+}
+html body form label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+html body form input {
+  margin-bottom: 15px;
+}
+html body .imgportada {
+  margin: 15px 0 20px 23.5rem;
+}
+html body ol {
+  margin-top: 45px;
+}
+html body .info {
+  text-align: center;
+  margin-top: 45px;
+}
+html body h2 {
+  text-align: center;
+  margin-top: 25px;
+}
+html body h3 {
+  color: black;
+  margin-top: 50px;
+}
+html body .carrito {
+  width: 25px;
+  height: 25px;
+}
+html body .local {
+  image-rendering: -webkit-optimize-contrast;
+  height: 550px;
+  width: 100%;
+  margin-top: 15px;
+}
+html h1 {
+  background: linear-gradient(rgb(123, 25, 214), rgb(216, 177, 238));
+  -webkit-background-clip: text;
+  color: transparent;
+  text-align: center;
+  padding-top: 25px;
+}
+html .logo {
+  width: 85px;
+  height: 85px;
+}
+html .navbar {
+  text-align: center;
+  position: relative;
+}
+html .navbar li {
+  list-style: none;
+  display: inline-block;
+  margin-left: 10px;
+}
+html a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  font-size: 20px;
+}
+html .checkout-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #7900ff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 20px
+}
+html .checkout-button:hover {
+  background-color: #7900ff;
+}
+@media (max-width: 768px) {
+  html .div-articulo {
+    flex-direction: column;
+  }
+  html .div-articulo .div-img {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 480px) {
+  html .titulo-articulo {
+    font-size: 1.2em;
+  }
+  html .descripcion-articulo {
+    font-size: 0.9em;
+  }
+}
+@media (max-width: 300px) {
+  html .linea-carrito {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  html .linea-carrito .div-img-carrito img {
+    max-width: 100%;
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
