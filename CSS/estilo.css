@@ -1,0 +1,85 @@
+main {
+  background-image: url(../img/fondo/fondo-pagina-4.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  background-position: center;
+  min-height: 100vh;
+  padding-bottom: 60px;
+}
+
+.formulario {
+    background-color: white;
+    max-width: 190px;
+    height: 40px;
+    padding: 10px;
+    /* text-align: center; */
+    border: 2px solid white;
+    border-radius: 5px;
+    /* box-shadow: 3px 3px 2px rgb(249, 255, 85); */
+  }
+
+  .formulario:focus {
+    color: rgb(#0400ff);
+    background-color: white;
+    outline-color: rgb(0, 255, 255);
+    box-shadow: -3px -3px 15px rgb(#0400ff);
+    transition: .1s;
+    transition-property: box-shadow;
+  }
+  .botonIngreso {
+    border: none;
+    color: #fff;
+    background-image: linear-gradient(30deg, #0400ff, #4ce3f7);
+    border-radius: 20px;
+    background-size: 100% auto;
+    font-family: inherit;
+    font-size: 17px;
+    padding: 0.6em 1.5em;
+   }
+   
+   .botonIngreso:hover {
+
+     box-shadow: 0 0 0 0 rgb(218 103 68 / 0%);
+    }
+   
+
+
+   .btn {
+    transition: 0.5s;
+  }
+
+  .btn:hover {
+    transform: scale(1.1);
+  }
+
+  .btn-warning {
+    margin-bottom: 1rem;
+  }
+
+  p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+  }
+
+   .footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: rgba(0, 0, 0, 0.2);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: auto;
+  }
+
+  .tarjetas-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.tarjeta {
+    width: 28%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
