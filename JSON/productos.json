@@ -1,15 +1,15 @@
 [
-    { "id": 1, "titulo": "Remera summer", "precio": 2500, "imagen": "../img/productos/remeras/remera-1.jpeg" },
-    { "id": 2, "titulo": "Remera negra", "precio": 2500, "imagen": "../img/productos/remeras/remera-4.jpeg" },
-    { "id": 3, "titulo": "Remera azul", "precio": 2500, "imagen": "../img/productos/remeras/remera-3.jpeg" },
-    { "id": 4, "titulo": "Hoddie blanco", "precio": 5000, "imagen": "../img/productos/buzos/buzo-4.jpeg" },
+    { "id": 1, "titulo": "Remera Tupac Shakur", "precio": 2500, "imagen": "../img/productos/remeras/remera-1.jpeg" },
+    { "id": 2, "titulo": "Remera Ice Cube", "precio": 2500, "imagen": "../img/productos/remeras/remera-4.jpeg" },
+    { "id": 3, "titulo": "Remera Blanca", "precio": 2500, "imagen": "../img/productos/remeras/remera-3.jpeg" },
+    { "id": 4, "titulo": "Hoddie naranja", "precio": 5000, "imagen": "../img/productos/buzos/buzo-2.jpeg" },
     { "id": 5, "titulo": "Hoddie negro", "precio": 5000, "imagen": "../img/productos/buzos/buzo-3.jpeg" },
-    { "id": 6, "titulo": "Hoddie teddy rosa", "precio": 5000, "imagen": "../img/productos/buzos/buzo-1.jpeg" },
-    { "id": 7, "titulo": "Rompeviento beige", "precio": 6000, "imagen": "../img/productos/camperas/campera-2.jpeg" },
-    { "id": 8, "titulo": "Rompeviento negro", "precio": 6000, "imagen": "../img/productos/camperas/campera-3.jpeg" },
-    { "id": 9, "titulo": "Rompeviento violeta", "precio": 6000, "imagen": "../img/productos/camperas/campera-1.jpeg" },
-    { "id": 10, "titulo": "Jogging negro", "precio": 7500, "imagen": "../img/productos/joggins/joggin-3.jpeg" },
-    { "id": 11, "titulo": "Jogging beige", "precio": 7500, "imagen": "../img/productos/joggins/joggin-2.jpeg" },
-    { "id": 12, "titulo": "Jogging azul", "precio": 7500, "imagen": "../img/productos/joggins/joggin-1.jpeg" }
+    { "id": 6, "titulo": "Hoddie blanco", "precio": 5000, "imagen": "../img/productos/buzos/buzo-1.jpeg" },
+    { "id": 7, "titulo": "Campera azul oscuro", "precio": 6000, "imagen": "../img/productos/camperas/campera-2.jpeg" },
+    { "id": 8, "titulo": "Campera verde militar", "precio": 6000, "imagen": "../img/productos/camperas/campera-3.jpeg" },
+    { "id": 9, "titulo": "Campera bordo", "precio": 6000, "imagen": "../img/productos/camperas/campera-1.jpeg" },
+    { "id": 10, "titulo": "Jogging kansas negro", "precio": 7500, "imagen": "../img/productos/joggins/joggin-3.jpeg" },
+    { "id": 11, "titulo": "Jogging negro", "precio": 7500, "imagen": "../img/productos/joggins/joggin-2.jpeg" },
+    { "id": 12, "titulo": "Joggin mostaza", "precio": 7500, "imagen":"../img/producto/joggins/joggin-1.jpeg"}
   ]
 
