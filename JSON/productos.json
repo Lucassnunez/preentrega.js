@@ -10,6 +10,6 @@
     { "id": 9, "titulo": "Campera bordo", "precio": 6000, "imagen": "../img/productos/camperas/campera-1.jpeg" },
     { "id": 10, "titulo": "Jogging kansas negro", "precio": 7500, "imagen": "../img/productos/joggins/joggin-3.jpeg" },
     { "id": 11, "titulo": "Jogging negro", "precio": 7500, "imagen": "../img/productos/joggins/joggin-2.jpeg" },
-    { "id": 12, "titulo": "Joggin mostaza", "precio": 7500, "imagen":"../img/producto/joggins/joggin-1.jpeg"}
+    { "id": 12, "titulo": "Joggin mostaza", "precio": 7500, "imagen":"../img/productos/joggins/joggin-1.jpeg"}
   ]
 

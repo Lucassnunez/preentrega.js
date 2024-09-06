@@ -1,4 +1,5 @@
-// app.use(express.static('public'));
+
+
 
 
 // Obtener referencia al elemento del DOM para el catálogo
@@ -14,7 +15,7 @@ const divCarrito = document.getElementById("carrito");
 // Función para cargar los productos desde el archivo JSON local
 async function cargarProductos() {
   try {
-    const response = await fetch('JSON/productos.json'); // Reemplaza con la ruta correcta de tu archivo JSON
+    const response = await fetch("../JSON/productos.json"); // Reemplaza con la ruta correcta de tu archivo JSON
     const productos = await response.json();
     localStorage.setItem('catalogo', JSON.stringify(productos));
     return productos;
@@ -80,7 +81,7 @@ function renderizarCarrito() {
 }
 
 // Cargar productos al iniciar la aplicación
-cargarProductos()
+ cargarProductos()
   .then(() => {
     // Renderizar el catálogo después de cargar los productos
     renderizarCatalogo();
@@ -175,3 +176,4 @@ btnIngresar.addEventListener("click", function () {
 
 // Renderizar el catálogo inicialmente
 renderizarCatalogo();
+
